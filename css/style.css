@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 body::after {
     background-color: #fff;
     opacity: 0.1;
@@ -12,14 +12,17 @@ body::after {
   }
 
 .container{
+    font-family: 'Raleway', sans-serif;
     width: 70%;
 }
 
 .lighttext{
     color: #aaa;
+    font-size: small;
 }
 
 .propic{
+    filter: grayscale(100%);
     display: block;
     position: relative;
     height: 230px;
