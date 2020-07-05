@@ -19,16 +19,25 @@ body::after {
 .lighttext{
     color: #aaa;
     font-size: small;
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
 }
 
 .propic{
     filter: grayscale(100%);
     display: block;
     position: relative;
-    height: 15rem;
-    width: 16rem;
+    height: 12rem;
+    width: 11.9rem;
     border-radius: 50%;
     border-width: 20px;
     border: 10px solid #fff;
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
 }
