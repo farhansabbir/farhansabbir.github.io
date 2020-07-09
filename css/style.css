@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body::after {
     background-color: #fff;
     opacity: 0.1;
@@ -18,7 +24,7 @@ body::after {
 
 .lighttext{
     color: #aaa;
-    font-size: small;
+    font-size: medium;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -30,6 +36,14 @@ h1{
     font-family: 'Raleway', sans-serif;
 }
 
+.card{
+    border-radius: 0;
+}
+
+.card-shadow{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
 .propic{
     filter: grayscale(70%);
     display: block;
@@ -37,6 +51,7 @@ h1{
     height: auto;
     width: auto;
     margin: 0 auto;
+    margin-top: -90px;
     border-radius: 50%;
     border-width: 10px;
     border: 10px solid #fff;
