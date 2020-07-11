@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap');
 
 *{
     margin: 0;
@@ -21,10 +21,14 @@ body::after {
     background-repeat: repeat;
   }
 
-  .justify-content-md-center {
+.justify-content-md-center {
     -webkit-box-pack: center !important;
     -ms-flex-pack: center !important;
     justify-content: center !important;
+}
+
+.shade{
+    background-color: rgb(221, 216, 226);
 }
 
 .container{
@@ -32,18 +36,34 @@ body::after {
     width: 90%;
 }
 
-.lighttext{
+.lighttext500{
     color: #aaa;
     font-size: medium;
     font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.lighttext200{
+    color: rgb(80, 80, 80);
+    font-size: medium;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
 }
 
 p{
     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: small;
 }
 
 h1{
     font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 
 .card{
@@ -55,8 +75,9 @@ h1{
 }
 
 a{
-    color: gray;
+    color: rgb(19, 36, 56);
     font-family: 'Raleway', sans-serif;
+    
 }
 
 .propic{
