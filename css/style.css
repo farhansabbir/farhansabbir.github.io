@@ -29,6 +29,7 @@ body::after {
 
 .shade{
     background-color: rgb(221, 216, 226);
+    background-color: #aeb4b8;
 }
 
 .container{
@@ -63,12 +64,12 @@ h1{
 
 h2{
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 h3{
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 h5{
