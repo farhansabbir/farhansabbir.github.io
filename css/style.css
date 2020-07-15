@@ -29,7 +29,7 @@ body::after {
 
 .shade{
     background-color: rgb(221, 216, 226);
-    background-color: #aeb4b8;
+    background-color: #8aa6b9;
 }
 
 .container{
@@ -51,7 +51,7 @@ body::after {
     font-weight: 200;
 }
 
-p{
+.smalltext{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: small;
@@ -90,7 +90,10 @@ h5{
 a{
     color: rgb(19, 36, 56);
     font-family: 'Raleway', sans-serif;
-    
+}
+
+.nav-link:hover{
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 .propic{
