@@ -28,7 +28,7 @@ body::after {
 }
 
 .shade{
-    background-color: #8aa6b9;
+    background-color: #b7b6b9;
 }
 
 .container{
@@ -93,6 +93,11 @@ a{
 
 .nav-link:hover{
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.custcarousel{
+    min-height: 250px;
+    max-height: 250px;
 }
 
 .propic{
