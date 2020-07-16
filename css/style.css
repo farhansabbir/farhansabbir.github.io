@@ -9,6 +9,12 @@ navbar{
     position: relative;
 }
 
+.btnshade{
+    font-size: small;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    width: 25%;
+}
+
 body::after {
     background-color: #fff;
     opacity: 0.1;
@@ -29,6 +35,8 @@ body::after {
 
 .shade{
     background-color: #b7b6b9;
+
+    background-color: #fff;
 }
 
 .container{
@@ -101,13 +109,13 @@ a{
 }
 
 .propic{
-    filter: grayscale(30%);
+    filter: grayscale(90%);
     display: block;
     position: relative;
     height: auto;
     width: auto;
     margin: 0 auto;
-    margin-top: -90px;
+    margin-top: -100px;
     border-radius: 50%;
     border-width: 10px;
     border: 10px solid #fff;
