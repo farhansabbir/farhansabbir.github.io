@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap');
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -131,4 +133,28 @@ a{
     border-width: 10px;
     border: 10px solid #fff;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 576px){
+    body{
+        background-color: rgb(241, 241, 241);
+    }
+    a{
+        font-size: 0.8em;
+    }
+    .btnshade{
+        text-align: center;
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-color: rgb(241, 241, 241);
+    }
+    .btnshade{
+        text-align: center;
+        font-size: 0.6em;
+    }
 }
