@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap');
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +12,18 @@ navbar{
 .stickyme{
     position: relative;
 }
+
+.floating-container{
+
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 50px;
+
+}
+
 
 .btnshade{
     height: 40px;
