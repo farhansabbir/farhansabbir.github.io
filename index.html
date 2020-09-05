@@ -127,8 +127,8 @@
       </div>
     </div>
   <div class="container pb-5 custcarousel">
-    <div class="row card card-shadow">
-      <div class="col-12">
+    <div class="row card card-shadow ">
+      <div class="col-12 carousel-bg">
         <div class="text-center pt-4" id="skills">
           <h3>
             Professional Skills
@@ -138,11 +138,11 @@
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-primary"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1" class=" bg-info"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1" class=" bg-primary"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2" class=" bg-primary"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="3" class=" bg-primary"></li>
             </ol>
-            <div class="carousel-inner m-0 p-4 m-0  rounded">
+            <div class="carousel-inner m-0 p-4 m-0 rounded pb-5">
               <div class="carousel-item active">
                 <h5>
                   Cloud
@@ -151,34 +151,61 @@
                 <li class="smalltext">
                   5 years hands-on experience in deploying and maintaining services in Amazon Web Services. 
                 </li>
+                <li class="smalltext">
+                  3 year experience in building custom cloud components in on-premises DC 
+                </li>
+                <li class="smalltext">
+                  Designing and implementation of on-premises object storage using open source software
+                </li>
               </ul>
               </div>
               <div class="carousel-item">
                 <h5>
                   Platform and Integrations
                 </h5>
-                <p class=" smalltext">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, aliquam corporis, adipisci praesentium rerum autem voluptates nostrum iste a in consectetur inventore voluptas culpa hic, itaque ducimus cum vero quo.
-                </p>
+                <ul class="">
+                  <li class="smalltext">
+                    More than a decade of hands-on planning, design and operation experience in UNIX (Solaris, HP-UX and BSD) and Linux. 
+                  </li>
+                  <li class="smalltext">
+                    Multi vendor Enterprise Storage (Dell/EMC, HP, IBM and Huawei) operations
+                  </li>
+                  <li class="smalltext">
+                    Platform design (hardware specification and readiness) and integration experience of open source and enterprise application
+                  </li>
+                </ul>
               </div>
               <div class="carousel-item">
                 <h5>
-                  Software Development
+                  Automation and Service Monitoring
                 </h5>
-                <p class=" smalltext">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores officia reiciendis adipisci deserunt, vero nemo illo delectus veniam suscipit explicabo odit et placeat iusto necessitatibus aperiam fuga totam repellendus aliquam!
-                </p>
-                <div class=" progress-bar-animated">
-
-                </div>
+                <ul class="">
+                  <li class="smalltext">
+                    Hands-on experience of deploying open source enterprise platform and service monitoring system (Zabbix and Grafana)
+                  </li>
+                  <li class="smalltext">
+                    Configuration Management by Ansible
+                  </li>
+                  <li class="smalltext">
+                    In-depth experience of developing system tools, automating tasks on hundreds of Linux, on-prem and in the cloud
+                  </li>
+                </ul>
               </div>
               <div class="carousel-item">
                 <h5>
                   Industry Experience
                 </h5>
-                <p class=" smalltext">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores officia reiciendis adipisci deserunt, vero nemo illo delectus veniam suscipit explicabo odit et placeat iusto necessitatibus aperiam fuga totam repellendus aliquam!
-                </p>
+                <ul class="">
+                  <li class="smalltext">
+                    More than a decade in designing and operations of Platform Services for large Telcos across Asia. 
+                  </li>
+                  <li class="smalltext">
+                    Above 6 years experience in managing platform operations team in IT.
+                  </li>
+                  <li class="smalltext">
+                    Leading large managed service operations remotely, strictly practicing ITIL and ISO27K guideline
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -216,7 +243,7 @@
   <script type="text/javascript">
   $(document).ready(function(){
     $('.carousel').carousel({ 
-      interval: 5000, 
+      interval: 10000, 
     })
   });
   </script>
