@@ -146,7 +146,7 @@ ul li.bullets::before{
 
 
 .propic{
-    filter: grayscale(90%);
+    filter: grayscale(50%);
     display: block;
     position: relative;
     height: auto;
