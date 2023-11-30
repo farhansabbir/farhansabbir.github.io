@@ -6,53 +6,96 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap demo</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" >
+  <link href="css/style.css" rel="stylesheet" >
 </head>
 
 <body>
-  <div class="container-fluid d-flex align-content-center justify-content-center" style="height: 100vh;">
-    <header>
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-          <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu" aria-labelledby="dropdownId">
-                  <a class="dropdown-item" href="#">Action 1</a>
-                  <a class="dropdown-item" href="#">Action 2</a>
+   
+    
+    <div class="container d-flex justify-content-center">
+      <div class="testimonial-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="section-header text-center">
+                <h4>Testimonials</h4>
+                <h2>What Clients Says</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat at animi unde, et, obcaecati eius.</p>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="carousel slide" data-bs-ride="true" id="carouselExampleIndicators">
+                <div class="carousel-indicators">
+                  <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> 
+                  <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> 
+                  <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+                  <button aria-label="Slide 4" data-bs-slide-to="3" data-bs-target="#carouselExampleIndicators" type="button"></button> 
+                  <button aria-label="Slide 5" data-bs-slide-to="4" data-bs-target="#carouselExampleIndicators" type="button"></button>
                 </div>
-              </li>
-            </ul>
-            <form class="d-flex my-2 my-lg-0">
-              <input class="form-control me-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="icon-area">
+                      <i class="fa fa-comments"></i>
+                    </div>
+                    <div class="content text-center">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
+                      <div class="person"><img alt="" src="img/aminul.jpg"></div>
+                      <h5>David Jones</h5>
+                      <h6>Web Developer</h6>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="icon-area">
+                      <i class="fa fa-comments"></i>
+                    </div>
+                    <div class="content text-center">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
+                      <div class="person"><img alt="" src="img/ashik.jpg"></div>
+                      <h5>Martin Thomas</h5>
+                      <h6>Graphics Designer</h6>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="icon-area">
+                      <i class="fa fa-comments"></i>
+                    </div>
+                    <div class="content text-center">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
+                      <div class="person"><img alt="" src="img/fazim.jpg"></div>
+                      <h5>Luke Jobs</h5>
+                      <h6>UI/UX Designer</h6>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="icon-area">
+                      <i class="fa fa-comments"></i>
+                    </div>
+                    <div class="content text-center">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
+                      <div class="person"><img alt="" src="img/kashfia.jpg"></div>
+                      <h5>Luke Jobs</h5>
+                      <h6>UI/UX Designer</h6>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="icon-area">
+                      <i class="fa fa-comments"></i>
+                    </div>
+                    <div class="content text-center">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
+                      <div class="person"><img alt="" src="img/monzur.jpg"></div>
+                      <h5>Luke Jobs</h5>
+                      <h6>UI/UX Designer</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-      
-    </header>
-    <main>
-  
-    </main>
-    <div class="fixed-bottom d-flex justify-content-center">
-      <footer>
-        Developed using Bootstrap
-      </footer>
+      </div>
     </div>
     
-  </div>
 
   <script src="js/bootstrap.min.js">
   </script>
