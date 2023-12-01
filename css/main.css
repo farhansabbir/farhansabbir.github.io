@@ -115,7 +115,7 @@ a:focus {
     text-decoration: none
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h4,h5,h6 {
     font-family: poppins,Helvetica,sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -1842,7 +1842,7 @@ ul.social-links li:last-child a {
     background-color: #fff;
     padding: 0 10px;
     line-height: 23px;
-    border: 2px solid #007ced;
+    border: 2px solid rgb(147, 169, 222);
     border-radius: 30px
 }
 
