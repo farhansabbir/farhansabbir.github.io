@@ -144,7 +144,7 @@ ul li.bullets::before{
 @media screen and (max-width: 576px){
     body{
         background-color: rgb(241, 241, 241);
-        font-family: 'SF Pro Display', sans-serif;;
+
     }
     .md-shrink{
         font-size: 0.8em;
@@ -159,7 +159,6 @@ ul li.bullets::before{
 @media screen and (max-width: 500px){
     body{
         background-color: rgb(241, 241, 241);
-        font-family: 'SF Pro Display', sans-serif;;
     }
     .btnshade{
         text-align: center;
@@ -176,10 +175,15 @@ ul li.bullets::before{
 	padding: 80px 0;
 }
 .section-header h4 {
-	color: rgb(153, 162, 183);
-    font-family: 'SF Pro Display', sans-serif;;
+	color: rgb(0, 0, 0);
 	font-weight: 600;
 }
+
+h1 {
+	color: rgb(153, 162, 183);
+	font-weight: 600;
+}
+
 .section-header {
 	padding-bottom: 15px;
 }
@@ -229,9 +233,10 @@ ul li.bullets::before{
 	bottom: -80px;
 }
 .carousel-indicators [data-bs-target] {
-	width: 60px;
+	width: 40px;
 	height: 10px;
-	background-color: rgb(147, 169, 222);
+    background-color: rgb(147, 169, 222);
+    border-bottom: 0 solid transparent;
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.section-header p {
@@ -255,4 +260,3 @@ ul li.bullets::before{
 		font-size: 50px;
 	}
 }
-
