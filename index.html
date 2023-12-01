@@ -7,20 +7,60 @@
   <title>Bootstrap demo</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" >
   <link href="css/style.css" rel="stylesheet" >
+  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
 </head>
 
 <body>
+  <div class="container">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
    
-    
     <div class="container d-flex justify-content-center">
+      
       <div class="testimonial-area">
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
               <div class="section-header text-center">
                 <h4>Testimonials</h4>
-                <h2>What Clients Says</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat at animi unde, et, obcaecati eius.</p>
+                <p>What people I worked with or reported to me has to say</p>
               </div>
             </div>
             <div class="col-sm-12">
@@ -31,6 +71,8 @@
                   <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
                   <button aria-label="Slide 4" data-bs-slide-to="3" data-bs-target="#carouselExampleIndicators" type="button"></button> 
                   <button aria-label="Slide 5" data-bs-slide-to="4" data-bs-target="#carouselExampleIndicators" type="button"></button>
+                  <button aria-label="Slide 6" data-bs-slide-to="5" data-bs-target="#carouselExampleIndicators" type="button"></button>
+                  <button aria-label="Slide 7" data-bs-slide-to="6" data-bs-target="#carouselExampleIndicators" type="button"></button>
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -38,10 +80,10 @@
                       <i class="fa fa-comments"></i>
                     </div>
                     <div class="content text-center">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
-                      <div class="person"><img alt="" src="img/aminul.jpg"></div>
-                      <h5>David Jones</h5>
-                      <h6>Web Developer</h6>
+                      <i><p>Farhan Sabbir is someone that you can rely on and someone who has solutions to any problem small or big. I have been in cross-functional interviews with him and he knows his subject matter and has great skill to assess potential of candidates. I have also found him to be very proactive, positive and helpful. We (from HR) have also awarded him Sparkling Employee of the organization last year for a specific month for his dedication and perseverance, which is an organization wide achievement. I wish him all the very best in his career! </p></i>
+                      <div class="person"><img alt="" src="img/simin.jpg"></div>
+                      <h5>Simin Chowdhury</h5>
+                      <h6>Regional Head of HR, Telenor</h6>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -49,45 +91,72 @@
                       <i class="fa fa-comments"></i>
                     </div>
                     <div class="content text-center">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
-                      <div class="person"><img alt="" src="img/ashik.jpg"></div>
-                      <h5>Martin Thomas</h5>
-                      <h6>Graphics Designer</h6>
+                      <i>
+                        <p>Farhan Sabbir Siddique has exceptional skills and leadership as a Services Manager. His extensive knowledge in technical specifications of software development, architecture, system management security has been invaluable in our projects. Farhan consistently demonstrates professionalism and leads his team of 20+ individuals with expertise, providing growth opportunities and mentorship when needed. His empathy and willingness to assist others make him a liked leader and colleague. Moreover, his commitment to continuous learning is truly inspiring. It has been a pleasure working alongside with him and witnessing his remarkable contributions in taking our projects to new heights.</p></i>
+                        <div class="person"><img alt="" src="img/ashik.jpg"></div>
+                        <h5>Md. Ashikul Alam</h5>
+                        <h6>Area Product Lead, BAT</h6>
+                      </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="icon-area">
-                      <i class="fa fa-comments"></i>
+                    <div class="carousel-item">
+                      <div class="icon-area">
+                        <i class="fa fa-comments"></i>
+                      </div>
+                      <div class="content text-center"><i>
+                        <p>I directly reported to Farhan Vai for four years. It has been a great experience for me as he helped me to thrive not only in technical expertise but also in IT Service Management. His critical thinking ability, extraordinary technical skillsets, and vast experience in ITSM paved the way for IT infrastructure stability in Banglalink. I wish him all the best in his future endeavors.</p></i>
+                        <div class="person"><img alt="" src="img/fazim.jpg"></div>
+                        <h5>Md. Muasir Fazim</h5>
+                        <h6>System Administrator, SGI</h6>
+                      </div>
                     </div>
-                    <div class="content text-center">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
-                      <div class="person"><img alt="" src="img/fazim.jpg"></div>
-                      <h5>Luke Jobs</h5>
-                      <h6>UI/UX Designer</h6>
+                    <div class="carousel-item">
+                      <div class="icon-area">
+                        <i class="fa fa-comments"></i>
+                      </div>
+                      <div class="content text-center">
+                        <i><p>Farhan is one of the exceptionally knowledgeable Unix Admin I have ever met. He also demonstrated terrific competence when engaging critical troubleshooting sessions. He is always willing to jump in as part of the team, whether it be to fix a problem or to determine root cause. He is an asset for any team, I wish him every success in his future. </p></i>
+                        <div class="person"><img alt="" src="img/monzur.jpg"></div>
+                        <h5>Monzur Ahmed Chowdhury</h5>
+                        <h6>Head Of Operations, Wipro</h6>
+                      </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="icon-area">
-                      <i class="fa fa-comments"></i>
-                    </div>
-                    <div class="content text-center">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
-                      <div class="person"><img alt="" src="img/kashfia.jpg"></div>
-                      <h5>Luke Jobs</h5>
-                      <h6>UI/UX Designer</h6>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="icon-area">
-                      <i class="fa fa-comments"></i>
-                    </div>
-                    <div class="content text-center">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero ipsum tempora perspiciatis.</p>
-                      <div class="person"><img alt="" src="img/monzur.jpg"></div>
-                      <h5>Luke Jobs</h5>
-                      <h6>UI/UX Designer</h6>
-                    </div>
-                  </div>
+                    <div class="carousel-item">
+                      <div class="icon-area">
+                        <i class="fa fa-comments"></i>
+                      </div>
+                      <div class="content text-center"><i>
+                        <p>Farhan is a great addition to the team both as a leader as well as a peer. Working together as peers, I witnessed his technical depth, governance mindset, and leadership skills in action. He is highly equipped for any leadership role in IT infrastructure and security.
+                          
+                          Farhan has deep technical knowledge and is always enhancing his skills through certifications and training. He is able to quickly grasp complex issues and recommend solutions balancing security, scalability, cost, and performance. Farhan leads with humility and clarity, in guiding team and in making difficult calls when needed. He would be an invaluable asset to any organization seeking an IT leader with technical expertise, a governance approach, and strong leadership.</p></i>
+                          <div class="person"><img alt="" src="img/kashfia.jpg"></div>
+                          <h5>Kashfia T. Ahmed</h5>
+                          <h6>Area IDT Marketing Manager, BAT</h6>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="icon-area">
+                          <i class="fa fa-comments"></i>
+                        </div>
+                        <div class="content text-center"><i>
+                          <p>Farhan Sabbir is one of the most Talented individual in IT Infrastructure I have worked with in Grameen Phone. He has a Strong expertise in different Flavours of UNIX /Linux Operating systems as well as the Mission Critical Hardwares.Beside regular administration task he has a tremendous hunger of being an expert in Shell Scripting and different Programming Languages which made him an unparallel member in the Unix Team. 
+ 
+                            He is a Very dedicated and Energetic Person. Farhan was involved in some of the most critical Project in Grameen Phone where he showed his utmost capability to make it an efficient and successful one. He is such a person who is always in the approach of “Never Say Die”. I always wish him an excellent career ahead.</p></i>
+                          <div class="person"><img alt="" src="img/arifrahman.jpeg"></div>
+                          <h5>Arif Rahman</h5>
+                          <h6>Senior Storage and Data Protection Engineer, Cencora</h6>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="icon-area">
+                          <i class="fa fa-comments"></i>
+                        </div>
+                        <div class="content text-center"><i>
+                          <p>One of motivation factors for me to continue my job at Banglalink is learning from my colleagues. Farhan Bhai is one of them I learn something new when we talk and work on any IT Infrastructure related issues and application scaling. He is the most knowledgeable Sysadmin I’ve ever seen as of now. An sysadmin with strong programming background what can do Farhan Bhai is exemplary for Bangladeshi Linux professionals. Not only he is technically sound but also he is an excellent mentor and leader for his team. He infused continuous learning culture within server, storage and backup team he is managing here at Banglalink. Finally, I thank him for continuously helping me and my team to run and maintain 50+ node Hadoop cluster to meet analytical needs of different departments.</p></i>
+                          <div class="person"><img alt="" src="img/aminul.jpg"></div>
+                          <h5>Aminul Islam</h5>
+                          <h6>Solution Architect, Oracle</h6>
+                        </div>
+                      </div>
                 </div>
               </div>
             </div>

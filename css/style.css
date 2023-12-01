@@ -48,6 +48,7 @@ body::after {
     left: 0;
     z-index: -1;   
     background-repeat: repeat;
+    font-family: 'SF Pro Display', sans-serif;;
   }
 
 .justify-content-md-center {
@@ -87,26 +88,6 @@ body::after {
     font-size: small;
 }
 
-h1{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-}
-
-h2{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-}
-
-h3{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-}
-
-h5{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: medium;
-}
 
 
 .card{
@@ -163,6 +144,7 @@ ul li.bullets::before{
 @media screen and (max-width: 576px){
     body{
         background-color: rgb(241, 241, 241);
+        font-family: 'SF Pro Display', sans-serif;;
     }
     .md-shrink{
         font-size: 0.8em;
@@ -177,6 +159,7 @@ ul li.bullets::before{
 @media screen and (max-width: 500px){
     body{
         background-color: rgb(241, 241, 241);
+        font-family: 'SF Pro Display', sans-serif;;
     }
     .btnshade{
         text-align: center;
@@ -193,7 +176,8 @@ ul li.bullets::before{
 	padding: 80px 0;
 }
 .section-header h4 {
-	color: rgb(181, 189, 209);
+	color: rgb(153, 162, 183);
+    font-family: 'SF Pro Display', sans-serif;;
 	font-weight: 600;
 }
 .section-header {
@@ -238,7 +222,6 @@ ul li.bullets::before{
 	margin-top: 15px;
 }
 .testimonial-area {
-	background: url(1.jpg);
 	background-size: cover;
 	background-position: center;
 }
