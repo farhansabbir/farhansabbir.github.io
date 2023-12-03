@@ -412,18 +412,18 @@ pre {
     line-height: 1.2;
     border: 0;
     outline: 0;
-    border: 2px solid #007ced;
+    /* border: 2px solid #007ced; */
     color: #222;
     text-shadow: none;
     background-color: #fff;
-    border-radius: 3px;
+    /* border-radius: 1px; */
     font-family: poppins,Helvetica,sans-serif;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    box-shadow: 0 10px 10px -8px rgba(0,0,0,.22)
+    /* box-shadow: 0 10px 10px -8px rgba(0,0,0,.22) */
 }
 
 .btn-primary:last-child,.btn-secondary:last-child,button:last-child,input[type=button]:last-child,input[type=submit]:last-child,.wp-block-button .wp-block-button__link:last-child {
@@ -431,9 +431,9 @@ pre {
 }
 
 .btn-primary:hover,.btn-primary:focus,button:hover,button:focus,input[type=button]:hover,input[type=button]:focus,input[type=submit]:hover,input[type=submit]:focus {
-    background-color: #007ced;
-    color: #fff;
-    border: 2px solid #007ced
+    background-color: #ffffff;
+    /* color: #fff; */
+    /* border: 2px solid #007ced */
 }
 
 .btn-secondary {
