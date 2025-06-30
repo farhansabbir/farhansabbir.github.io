@@ -96,7 +96,7 @@ footer {
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .experience-details.card .card-header {
@@ -118,7 +118,7 @@ footer {
 }
 
 #testimonials .carousel-inner {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -128,8 +128,8 @@ footer {
 
 .arrow-icon {
   float: right;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background-color: #0d6efd;
   border-radius: 50%;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
