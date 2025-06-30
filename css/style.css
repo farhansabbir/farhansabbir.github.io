@@ -1,5 +1,7 @@
 :root {
   --primary-color: #295dab;
+  --secondary-color: #fff;
+  --card-background: #fff;
 }
 
 body {
@@ -62,83 +64,40 @@ section h2 {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
-#testimonials .card {
-  border: 1px solid #eee;
+#testimonials .card-header .d-flex {
+  width: 100%;
 }
 
-#testimonials .carousel-control-prev-icon,
-#testimonials .carousel-control-next-icon {
-  background-color: var(--primary-color);
-  border-radius: 50%;
-  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
-}
-
-#testimonials .carousel-indicators {
-  position: static;
-  margin-top: 1rem;
-}
-
-#testimonials .carousel-indicators [data-bs-target] {
-  background-color: var(--primary-color);
-}
-
-footer {
-  color: #6c757d;
-}
-
-/* Experience Block */
-.experience-block {
-  position: relative;
-  padding-left: 2rem;
-  margin-bottom: 2rem;
-  border-left: 2px solid var(--primary-color);
-}
-
-.experience-year {
-  position: absolute;
-  top: -15px;
-  left: -15px;
-  width: 30px;
-  height: 30px;
-  background-color: var(--primary-color);
-  color: #fff;
-  border-radius: 50%;
+#testimonials .card-header {
+  cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 0.6rem;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
 }
 
-.experience-details.card .card-header {
-  background-color: transparent;
+#testimonials .card-body {
+  background-color: var(--card-background);
+}
+
+.card-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
   border-bottom: none;
   padding: 0.5rem 1rem;
 }
 
-.experience-details.card .card-body {
-  padding-top: 0;
-}
-
-
-.experience-title {
+.card-header h4,
+.card-header .experience-title {
   font-weight: 700;
-  text-decoration: none;
   color: #333;
-  cursor: pointer;
-}
-
-#testimonials .carousel-inner {
-  width: 70%;
-  margin: 0 auto;
-}
-
-.experience-title:hover {
-  color: var(--primary-color);
+  font-size: 1.1rem;
 }
 
 .arrow-icon {
-  float: right;
   width: 1.2rem;
   height: 1.2rem;
   background-color: var(--primary-color);
@@ -148,6 +107,20 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   transition: transform 0.3s ease;
+  margin-left: auto;
+}
+
+#testimonials .card-header .arrow-icon {
+  /* No custom styles needed here anymore */
+}
+
+.summary-header {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.summary-header .card-body {
+  background-color: var(--card-background);
 }
 
 [aria-expanded="true"] .arrow-icon {
