@@ -1,0 +1,49 @@
+@media print {
+  body {
+    font-family: 'SF Pro Display', sans-serif;
+    color: #000;
+  }
+
+  .d-print-none {
+    display: none !important;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  header, footer, #testimonials .carousel-control-prev, #testimonials .carousel-control-next {
+    display: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  #contact img {
+    max-width: 150px;
+  }
+
+  .accordion-button::after {
+    display: none;
+  }
+
+  .accordion-collapse {
+    display: block !important;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
