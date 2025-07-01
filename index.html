@@ -62,7 +62,9 @@
       <section id="contact" class="mb-5">
         <div class="row align-items-center">
           <div class="col-md-3 text-center">
-            <img src="img/main_photo.jpg" alt="Farhan Sabbir Siddique" class="img-fluid rounded-circle mb-3">
+            <div class="profile-pic-container mb-3">
+              <img src="img/pp.blue.png" alt="Farhan Sabbir Siddique">
+            </div>
           </div>
           <div class="col-md-5">
             <div>
@@ -450,14 +452,17 @@
             </div>
             <div class="col-md-11">
               <div class="experience-details card">
-                <div class="card-header">
+                <div class="card-header" data-bs-toggle="collapse" href="#education1" role="button" aria-expanded="false" aria-controls="education1">
                   <a class="experience-title">
                     <strong>MSc in Computer Science and Engineering</strong>
                   </a>
+                  <span class="arrow-icon"></span>
                 </div>
-                <div class="card-body">
-                  <p class="text-muted">Independent University of Bangladesh</p>
-                  <!-- <p>Major in Computer Networks and Communication with CGPA of 3.3</p> -->
+                <div class="collapse" id="education1">
+                  <div class="card-body">
+                    <p class="text-muted">Independent University of Bangladesh</p>
+                    <!-- <p>Major in Computer Networks and Communication with CGPA of 3.3</p> -->
+                  </div>
                 </div>
               </div>
             </div>
@@ -472,14 +477,17 @@
             </div>
             <div class="col-md-11">
               <div class="experience-details card">
-                <div class="card-header">
+                <div class="card-header" data-bs-toggle="collapse" href="#education2" role="button" aria-expanded="false" aria-controls="education2">
                   <a class="experience-title">
                     <strong>BSc in Computer Science and Engineering</strong>
                   </a>
+                  <span class="arrow-icon"></span>
                 </div>
-                <div class="card-body">
-                  <p class="text-muted">Manarat International University</p>
-                  <!-- <p>With CGPA of 3.67, this was my most enlightening period in life where I was exposed to world of computing.</p> -->
+                <div class="collapse" id="education2">
+                  <div class="card-body">
+                    <p class="text-muted">Manarat International University</p>
+                    <!-- <p>With CGPA of 3.67, this was my most enlightening period in life where I was exposed to world of computing.</p> -->
+                  </div>
                 </div>
               </div>
             </div>
