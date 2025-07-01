@@ -47,7 +47,7 @@
               <p><i class="lni lni-linkedin-original m-1" style="color: rgb(1, 101, 167);"></i> <a href="https://linkedin.com/in/farhansabbir">linkedin.com/in/farhansabbir</a></p>
             </div>
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-md-4 text-end">
             <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://linkedin.com/in/farhansabbir" alt="LinkedIn QR Code" class="img-fluid">
             <p class="text-muted mt-2">Scan for LinkedIn Profile</p>
           </div>
@@ -412,6 +412,55 @@
         </div>
       </section>
 
+
+      <section id="education" class="mb-5">
+        <h2>Education</h2>
+        <div class="experience-block">
+          <div class="row">
+            <div class="col-md-1">
+              
+              <div class="experience-year">2022</div>
+              <div class="experience-line"></div>
+            </div>
+            <div class="col-md-11">
+              <div class="experience-details card">
+                <div class="card-header">
+                  <a class="experience-title">
+                    <strong>MSc in Computer Science and Engineering</strong>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="text-muted">Independent University of Bangladesh</p>
+                  <!-- <p>Major in Computer Networks and Communication with CGPA of 3.3</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="experience-block">
+          <div class="row">
+            <div class="col-md-1">
+              
+              <div class="experience-year">2005</div>
+              <div class="experience-line"></div>
+            </div>
+            <div class="col-md-11">
+              <div class="experience-details card">
+                <div class="card-header">
+                  <a class="experience-title">
+                    <strong>BSc in Computer Science and Engineering</strong>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="text-muted">Manarat International University</p>
+                  <!-- <p>With CGPA of 3.67, this was my most enlightening period in life where I was exposed to world of computing.</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="skills" class="mb-5">
         <h2>Skills</h2>
         <div class="row text-center">
@@ -482,37 +531,7 @@
         </div>
       </section>
 
-      <section id="education" class="mb-5">
-        <h2>Education</h2>
-        <div class="experience-block">
-          <div class="experience-year">2022</div>
-          <div class="experience-details card">
-            <div class="card-header">
-              <a class="experience-title">
-                <strong>MSc in Computer Science and Engineering</strong>
-              </a>
-            </div>
-            <div class="card-body">
-              <p class="text-muted">Independent University of Bangladesh</p>
-              <!-- <p>Major in Computer Networks and Communication with CGPA of 3.3</p> -->
-            </div>
-          </div>
-        </div>
-        <div class="experience-block">
-          <div class="experience-year">2005</div>
-          <div class="experience-details card">
-            <div class="card-header">
-              <a class="experience-title">
-                <strong>BSc in Computer Science and Engineering</strong>
-              </a>
-            </div>
-            <div class="card-body">
-              <p class="text-muted">Manarat International University</p>
-              <!-- <p>With CGPA of 3.67, this was my most enlightening period in life where I was exposed to world of computing.</p> -->
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       <section id="github-contributions" class="mb-5">
         <h2>GitHub Contributions</h2>
@@ -520,11 +539,11 @@
           <div class="col-md-12 mb-4">
             <div class="card">
               <div class="card-header summary-header" data-bs-toggle="collapse" href="#contributions-calendar-card" role="button" aria-expanded="false" aria-controls="contributions-calendar-card">
-                  <h4 class="mb-0">Contributions Calendar</h4>
+                  <h4 class="mb-0">Github Contributions Calendar</h4>
                   <span class="arrow-icon"></span>
               </div>
               <div class="collapse" id="contributions-calendar-card">
-                <div class="card-body" style="background-color: var(--card-background);">
+                <div class="card-body text-center" style="background-color: var(--card-background);">
                   <img src="https://ghchart.rshah.org/farhansabbir" alt="GitHub Contributions" class="img-fluid">
                 </div>
               </div>
@@ -533,7 +552,7 @@
           <div class="col-md-12 mb-4">
             <div class="card">
               <div class="card-header summary-header" data-bs-toggle="collapse" href="#contributions-activity-card" role="button" aria-expanded="false" aria-controls="contributions-activity-card">
-                  <h4 class="mb-0">Contributions Activity</h4>
+                  <h4 class="mb-0">Github Contributions Activity</h4>
                   <span class="arrow-icon"></span>
               </div>
               <div class="collapse" id="contributions-activity-card">
@@ -753,6 +772,22 @@ I wholeheartedly recommend Farhan as a talented and dedicated professional who p
       const primaryColor = computedStyle.getPropertyValue('--primary-color').trim().substring(1);
       const activityGraph = document.getElementById('github-activity-graph');
       activityGraph.src = `https://github-readme-activity-graph.vercel.app/graph?username=farhansabbir&custom_title=Contributions%20Activity&bg_color=ffffff&color=${primaryColor}&line=${primaryColor}`;
+    });
+
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+      const collapseEl = card.querySelector('.collapse');
+      if (collapseEl) {
+        const bsCollapse = new bootstrap.Collapse(collapseEl, {
+          toggle: false
+        });
+        card.addEventListener('mouseenter', () => {
+          bsCollapse.show();
+        });
+        card.addEventListener('mouseleave', () => {
+          bsCollapse.hide();
+        });
+      }
     });
   </script>
 </body>
