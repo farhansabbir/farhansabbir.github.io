@@ -514,6 +514,38 @@
         </div>
       </section>
 
+      <section id="github-contributions" class="mb-5">
+        <h2>GitHub Contributions</h2>
+        <div class="row">
+          <div class="col-md-12 mb-4">
+            <div class="card">
+              <div class="card-header summary-header" data-bs-toggle="collapse" href="#contributions-calendar-card" role="button" aria-expanded="false" aria-controls="contributions-calendar-card">
+                  <h4 class="mb-0">Contributions Calendar</h4>
+                  <span class="arrow-icon"></span>
+              </div>
+              <div class="collapse" id="contributions-calendar-card">
+                <div class="card-body" style="background-color: var(--card-background);">
+                  <img src="https://ghchart.rshah.org/farhansabbir" alt="GitHub Contributions" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-4">
+            <div class="card">
+              <div class="card-header summary-header" data-bs-toggle="collapse" href="#contributions-activity-card" role="button" aria-expanded="false" aria-controls="contributions-activity-card">
+                  <h4 class="mb-0">Contributions Activity</h4>
+                  <span class="arrow-icon"></span>
+              </div>
+              <div class="collapse" id="contributions-activity-card">
+                <div class="card-body" style="background-color: var(--card-background);">
+                  <img id="github-activity-graph" src="https://github-readme-activity-graph.vercel.app/graph?username=farhansabbir&custom_title=Contributions%20Activity&bg_color=ffffff" alt="GitHub Activity" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="testimonials" class="mb-5">
         <h2>Testimonials</h2>
         <div class="row">
@@ -714,6 +746,13 @@ I wholeheartedly recommend Farhan as a talented and dedicated professional who p
       setTimeout(function() {
         window.print();
       }, 500);
+    });
+
+    window.addEventListener('load', function() {
+      const computedStyle = getComputedStyle(document.documentElement);
+      const primaryColor = computedStyle.getPropertyValue('--primary-color').trim().substring(1);
+      const activityGraph = document.getElementById('github-activity-graph');
+      activityGraph.src = `https://github-readme-activity-graph.vercel.app/graph?username=farhansabbir&custom_title=Contributions%20Activity&bg_color=ffffff&color=${primaryColor}&line=${primaryColor}`;
     });
   </script>
 </body>
