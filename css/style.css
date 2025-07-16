@@ -141,7 +141,7 @@ section h2 {
   flex-grow: 0;
 }
 
-[aria-expanded="true"] .arrow-icon {
+.card-header[aria-expanded="true"] .arrow-icon {
   transform: rotate(180deg);
 }
 
@@ -165,4 +165,12 @@ section h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Ensure all collapsible card headers are flex containers */
+.card-header[data-bs-toggle="collapse"] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
 }
